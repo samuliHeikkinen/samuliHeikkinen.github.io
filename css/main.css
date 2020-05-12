@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    height: 930px;
+    background-color: #E4E4E4;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    border: 0px;
+    width: 100%;  
+    height: 100%;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.jc-center {
+    justify-content: center;
+}
+
+.topbar {
+    border: 0px;
+    width: 900px;
+    height: 100px;
+    background-color: #4680AA;
+}
+
+.conv-bg {
+    border: 0px;
+    width: 900px;
+    background-color: #E0D5C5;
+    height: inherit;
+}
